@@ -1,10 +1,10 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function App() {
   return (
     <div className="bg-gray-200 h-screen flex flex-col items-center justify-center">
       <h1 className="text-4xl font-bold mb-4">CSS Workshop</h1>
-
       <div className="w-full max-w-2xl p-6 bg-white rounded-lg shadow-lg">
         <h2 className="text-2xl font-semibold mb-4">Header 2</h2>
         <p>
@@ -32,6 +32,10 @@ function App() {
           </button>
         </div>
       </div>
+      <button className="bg-purple-500 hover:bg-purple-700 text-white font-bold py-2 px-4 mt-4 rounded">
+        <Link to="/layout">Click here to practice layouts</Link>
+      </button>
+
     </div>
   );
 }
