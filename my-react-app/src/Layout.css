@@ -1,0 +1,34 @@
+.box {
+    width: 5rem; /* Equivalent to w-20 in Tailwind CSS */
+    height: 5rem; /* Equivalent to h-20 in Tailwind CSS */
+    text-align: center; /* Equivalent to text-center in Tailwind CSS */
+    display: flex; /* Equivalent to flex in Tailwind CSS */
+    align-items: center; /* Equivalent to items-center in Tailwind CSS */
+    justify-content: center; /* Equivalent to justify-center in Tailwind CSS */
+  }
+
+.example1 {
+    width: 100%;
+    max-width: 42rem;
+    padding: 1.5rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    margin: 2px;
+    justify-content: space-between;
+  }
+  
+.example2 {
+  width: 100%;
+  max-width: 42rem;
+  padding: 1.5rem;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2px;
+  justify-content: space-evenly;
+}
+  
