@@ -5,6 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Layout from './Layout';
+import AppTailwind from './AppTailwind';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -14,6 +15,7 @@ root.render(
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/layout" element={<Layout />} />
+        <Route path="/apptailwind" element={<AppTailwind />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
